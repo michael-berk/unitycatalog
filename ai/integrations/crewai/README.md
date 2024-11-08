@@ -4,11 +4,13 @@ You can use functions defined within Unity Catalog (UC) directly as tools within
 
 ## Installation
 
-### From PyPI
-
 ```sh
-pip install unitycatalog-crewai
+# install from the source
+pip install git+https://github.com/unitycatalog/unitycatalog.git@main#subdirectory=ai/integrations/crewai
 ```
+
+> [!NOTE]
+> Once this package is published to PyPI, users can install via `pip install unitycatalog-crewai`
 
 ## Getting started
 
